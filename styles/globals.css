@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: linear-gradient(180deg, #fefefe 0%, #fdf5d5 45%, #a7d8ff 100%);
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-nunito), ui-sans-serif, system-ui;
+  color: rgb(51 65 85);
+  background: transparent;
+}
+
+a {
+  @apply text-twilight transition-colors;
+}
+
+a:hover {
+  @apply text-slate-900;
+}
